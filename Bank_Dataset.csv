@@ -1,0 +1,801 @@
+CustomerID,Name,Age,Gender,Location,AccountType,AccountBalance,LoanStatus,LoanAmount,TransactionType,TransactionAmount,TransactionDate
+1,Max Mckee,19,Male,New York,Checking,88444,Pending,27839,Withdrawal,495,2024-12-28
+2,Jacob Williams,47,Male,Chicago,Fixed Deposit,31346,Repaid,9702,Deposit,432,2024-05-02
+3,William Peterson,52,Female,Atlanta,Checking,12889,Pending,18864,Withdrawal,4755,2025-02-24
+4,David Vargas,59,Male,Houston,Checking,88062,Pending,29620,Withdrawal,1422,2024-06-05
+5,Deanna Rogers,70,Male,Atlanta,Fixed Deposit,9467,Repaid,1144,Deposit,3890,2024-12-07
+6,Bradley Hicks,25,Male,Houston,Checking,11202,Pending,31667,Deposit,1626,2025-01-18
+7,Christy Owen,51,Male,Miami,Checking,95466,Declined,14261,Deposit,2505,2024-07-23
+8,Alex Alvarez DDS,26,Male,San Francisco,Savings,91750,Repaid,26566,Withdrawal,3150,2024-11-29
+9,Jeff Walker,68,Female,San Francisco,Fixed Deposit,42721,Pending,10146,Withdrawal,249,2024-06-20
+10,Michael Hill,64,Male,Seattle,Checking,58737,Repaid,1331,Deposit,3032,2025-01-13
+11,James Lopez MD,70,Male,San Francisco,Business,95994,Approved,5856,Withdrawal,4628,2024-11-03
+12,Kristopher Austin,54,Female,New York,Checking,19882,Pending,43036,Deposit,4977,2024-04-26
+13,Ronald Jenkins,67,Female,Houston,Fixed Deposit,89234,Pending,27732,Deposit,2617,2024-07-15
+14,Laura Buckley,42,Male,Houston,Checking,97936,Declined,42107,Deposit,2157,2024-04-06
+15,Melanie Hartman,31,Female,San Francisco,Fixed Deposit,38467,Approved,36350,Withdrawal,1798,2024-03-05
+16,Douglas Hall,23,Female,Seattle,Checking,38902,Pending,33482,Withdrawal,813,2025-01-22
+17,Laura Russell,23,Female,Los Angeles,Checking,77691,Repaid,23618,Withdrawal,4840,2024-07-28
+18,Leah Hebert,23,Male,San Francisco,Fixed Deposit,77532,Pending,41921,Withdrawal,4683,2024-06-14
+19,Stephanie Carlson,65,Female,New York,Savings,56791,Repaid,7354,Withdrawal,4851,2025-02-21
+20,William Rosales,30,Female,San Francisco,Checking,74706,Declined,28271,Withdrawal,1286,2024-07-05
+21,Brenda Santiago,39,Female,San Francisco,Savings,77874,Declined,48392,Withdrawal,1661,2024-12-12
+22,Terry Johnson,36,Female,Dallas,Checking,8434,Repaid,3828,Withdrawal,4283,2024-06-11
+23,Jonathan Knight,37,Male,Seattle,Business,77081,Pending,49826,Withdrawal,2818,2024-04-24
+24,Christina Mcclure,41,Female,Dallas,Fixed Deposit,25272,Declined,44352,Withdrawal,4473,2024-03-18
+25,Bob Smith,20,Female,Chicago,Fixed Deposit,77912,Declined,1907,Withdrawal,156,2024-11-05
+26,Christopher Reeves DDS,38,Male,Miami,Fixed Deposit,91163,Declined,42363,Withdrawal,2978,2025-01-17
+27,Gilbert Mullins,25,Female,Miami,Business,53949,Pending,4956,Withdrawal,1637,2025-01-23
+28,Stephanie Miller,65,Female,Los Angeles,Business,42780,Declined,47406,Deposit,4384,2024-05-13
+29,Adam Snyder,37,Male,Houston,Fixed Deposit,57130,Approved,8996,Deposit,3897,2024-07-29
+30,Amanda Watson,37,Male,Seattle,Checking,24569,Declined,44646,Deposit,2564,2024-11-19
+31,Christina Johnson,51,Male,New York,Business,17956,Pending,1152,Deposit,4390,2024-08-26
+32,Anne Martinez,27,Male,New York,Checking,18855,Repaid,962,Deposit,4984,2024-09-13
+33,Joanna Riley,38,Female,New York,Checking,40442,Approved,9368,Withdrawal,793,2024-08-22
+34,Sara Wallace,33,Male,Miami,Fixed Deposit,33125,Repaid,21183,Withdrawal,2175,2024-10-03
+35,Todd Mccarthy,37,Female,Miami,Checking,62948,Repaid,25701,Withdrawal,2900,2024-06-11
+36,Tony Thompson,19,Female,Chicago,Fixed Deposit,28273,Declined,23448,Withdrawal,862,2024-09-02
+37,Andrea Jones,57,Female,Houston,Checking,50257,Declined,44799,Withdrawal,2084,2024-04-11
+38,Ana Hanna,31,Male,Miami,Checking,36587,Repaid,29734,Withdrawal,4220,2024-08-22
+39,Kristine Wright,69,Male,San Francisco,Savings,18598,Approved,7850,Deposit,3599,2025-02-06
+40,Amanda Coleman,44,Male,Miami,Checking,42401,Approved,44575,Deposit,1858,2024-11-23
+41,Jessica Webster,60,Male,Chicago,Fixed Deposit,96910,Pending,5168,Withdrawal,804,2024-12-09
+42,Todd Hernandez,30,Male,Boston,Business,48573,Repaid,7044,Withdrawal,580,2024-03-26
+43,Jeremy Moore,45,Female,Miami,Business,39589,Repaid,11922,Withdrawal,3087,2024-09-22
+44,Joseph Hodge,34,Male,Atlanta,Checking,59400,Pending,9095,Deposit,1417,2025-01-10
+45,Emily Perez,38,Female,Los Angeles,Fixed Deposit,31774,Pending,46858,Deposit,1304,2025-02-13
+46,Renee Klein,41,Male,Boston,Fixed Deposit,47968,Approved,32909,Withdrawal,656,2024-08-28
+47,Bryan Sullivan,66,Female,Chicago,Checking,89139,Declined,29573,Withdrawal,924,2024-03-19
+48,Joseph Richardson,31,Male,New York,Checking,45541,Declined,41101,Withdrawal,4524,2025-01-09
+49,Richard White,68,Female,Chicago,Savings,96283,Repaid,27771,Deposit,1771,2024-04-18
+50,Natalie Thomas,39,Female,San Francisco,Checking,27261,Repaid,22398,Withdrawal,684,2024-05-08
+51,Sabrina Jones,48,Male,New York,Savings,91275,Repaid,10542,Deposit,999,2024-08-02
+52,David Cameron,43,Female,Boston,Fixed Deposit,81765,Pending,21378,Deposit,3625,2025-01-01
+53,Kimberly Edwards,53,Male,Houston,Savings,13214,Repaid,1565,Withdrawal,3774,2024-04-02
+54,Abigail Perez,53,Female,Dallas,Fixed Deposit,12836,Repaid,29123,Deposit,3862,2024-03-16
+55,Jeremy Kelly,45,Male,Seattle,Business,52464,Pending,10359,Deposit,132,2025-01-14
+56,Jacqueline Sullivan,55,Male,Los Angeles,Savings,44177,Declined,3760,Withdrawal,2396,2024-05-21
+57,Jamie Andersen,39,Female,Miami,Business,70054,Approved,16382,Withdrawal,4248,2024-10-17
+58,Lori Powell,40,Female,Chicago,Checking,45461,Approved,31993,Deposit,3716,2024-04-07
+59,Andrew Horton,65,Male,Seattle,Business,93768,Pending,33610,Deposit,3072,2024-12-15
+60,Christopher Johnson,18,Male,New York,Savings,45141,Pending,20529,Withdrawal,3533,2024-11-12
+61,Arthur Clay,22,Male,Houston,Savings,30380,Approved,40549,Withdrawal,3338,2025-01-27
+62,Christopher Baker,34,Male,Seattle,Savings,69061,Repaid,14003,Deposit,2937,2025-02-21
+63,Maurice Brady,64,Male,Dallas,Checking,90995,Pending,9444,Deposit,2901,2024-06-01
+64,Ashley Donovan,52,Female,Chicago,Fixed Deposit,97406,Approved,5305,Deposit,245,2024-05-12
+65,Jessica Armstrong,23,Female,Los Angeles,Business,79357,Approved,19697,Deposit,116,2024-11-05
+66,Melinda Mack,68,Female,New York,Savings,84074,Approved,11380,Withdrawal,3043,2024-07-15
+67,Shelby Bartlett,22,Female,Boston,Fixed Deposit,89153,Repaid,2108,Withdrawal,1557,2024-03-26
+68,Brian Smith,30,Male,Atlanta,Checking,60203,Approved,30904,Withdrawal,3284,2024-12-10
+69,John Hill,48,Male,Atlanta,Checking,27816,Repaid,16619,Deposit,1006,2024-11-29
+70,David Smith,29,Female,Atlanta,Savings,81047,Repaid,24714,Withdrawal,1135,2025-02-21
+71,Deborah Hunter,25,Male,New York,Savings,84968,Approved,8045,Withdrawal,453,2024-07-21
+72,David Hardy,58,Female,San Francisco,Savings,79318,Declined,18783,Deposit,2699,2024-06-01
+73,Jesse Tran Jr.,36,Male,Boston,Savings,20842,Approved,31908,Withdrawal,1338,2024-11-25
+74,Robert Huerta,36,Female,Los Angeles,Checking,82913,Approved,14500,Deposit,2306,2024-04-07
+75,Daniel Stanley,57,Male,San Francisco,Savings,20317,Declined,35932,Withdrawal,896,2024-06-17
+76,Richard Navarro,42,Female,Boston,Checking,77916,Repaid,3786,Withdrawal,674,2025-01-11
+77,Jennifer Moore,39,Male,Chicago,Business,98166,Approved,30288,Withdrawal,712,2024-05-07
+78,Katie Summers MD,35,Male,San Francisco,Checking,5677,Approved,43298,Deposit,4350,2024-03-19
+79,Kent Snyder,33,Male,Miami,Fixed Deposit,85191,Approved,16163,Deposit,2979,2024-08-20
+80,Rachel Avila,60,Male,Dallas,Fixed Deposit,18707,Approved,1267,Withdrawal,973,2024-06-20
+81,Colin Porter PhD,49,Male,Seattle,Fixed Deposit,23271,Pending,7029,Deposit,1447,2024-08-03
+82,Dale Brandt,62,Male,Atlanta,Savings,6527,Repaid,23398,Deposit,873,2024-07-02
+83,Ronald Vaughan,48,Female,Seattle,Business,70721,Approved,46814,Deposit,4971,2024-12-14
+84,Greg Gutierrez,66,Female,Chicago,Business,50633,Repaid,29695,Withdrawal,1363,2025-01-09
+85,Stephanie Paul,24,Male,Boston,Business,65799,Approved,6192,Withdrawal,1166,2024-10-25
+86,Felicia Edwards,39,Male,Atlanta,Business,87438,Declined,24825,Deposit,1846,2024-09-10
+87,Lisa Beard,22,Male,Dallas,Fixed Deposit,84232,Pending,30253,Withdrawal,3107,2024-11-27
+88,James Duncan,59,Male,Boston,Savings,75553,Pending,28237,Withdrawal,1347,2025-01-06
+89,Jody Li,24,Male,Boston,Savings,4042,Repaid,14104,Withdrawal,215,2024-11-11
+90,Matthew Taylor,20,Male,Chicago,Savings,54204,Declined,5194,Deposit,2627,2024-08-22
+91,Sean Rodriguez,30,Male,Chicago,Checking,15564,Declined,21387,Withdrawal,2409,2024-06-19
+92,Erin Young,30,Male,Seattle,Checking,75549,Repaid,13056,Deposit,4853,2024-03-08
+93,Michelle Hawkins,65,Female,Boston,Fixed Deposit,1428,Declined,22109,Withdrawal,3575,2025-01-06
+94,Jessica Ritter,23,Female,Houston,Fixed Deposit,72203,Declined,30468,Withdrawal,2345,2024-07-08
+95,Amanda Mejia,70,Female,Boston,Savings,59195,Approved,21621,Withdrawal,1544,2024-06-19
+96,Paul Schaefer PhD,70,Female,Houston,Checking,16841,Pending,40654,Withdrawal,4176,2024-04-09
+97,Tyler Thomas,29,Female,Atlanta,Checking,7207,Declined,2215,Withdrawal,1937,2024-05-07
+98,Michael Campos,28,Female,Atlanta,Business,61096,Declined,22918,Deposit,2090,2024-07-16
+99,Kevin Page,21,Female,Chicago,Business,7508,Repaid,15073,Deposit,1204,2024-08-29
+100,John Cruz,27,Male,Seattle,Fixed Deposit,71417,Repaid,17972,Deposit,4825,2024-08-01
+101,Maria Robinson,25,Male,New York,Fixed Deposit,37443,Pending,41210,Withdrawal,3190,2024-06-24
+102,Susan Zhang,57,Female,Atlanta,Business,67754,Approved,31117,Withdrawal,3175,2024-09-27
+103,Alexis Malone,24,Female,San Francisco,Fixed Deposit,24171,Repaid,19297,Deposit,1438,2024-08-10
+104,Michael Phillips,37,Male,New York,Savings,34388,Declined,12040,Withdrawal,2884,2024-02-29
+105,Robert Hester,67,Male,Houston,Fixed Deposit,98362,Approved,30349,Withdrawal,1931,2024-04-26
+106,Carla Martin,21,Female,Houston,Savings,19136,Pending,10013,Deposit,262,2024-06-01
+107,Jerry Rivera,36,Female,New York,Checking,11424,Declined,5297,Deposit,3003,2025-02-18
+108,Jeremy Butler,65,Male,San Francisco,Savings,95536,Repaid,19859,Deposit,3934,2025-01-14
+109,Lisa Davis,28,Female,Atlanta,Fixed Deposit,27641,Approved,37835,Deposit,3240,2024-07-18
+110,Justin Holland,60,Female,Miami,Business,49904,Pending,19989,Withdrawal,4739,2024-07-20
+111,Amanda Lee,48,Male,Miami,Fixed Deposit,32795,Approved,1369,Deposit,473,2024-11-23
+112,Matthew Haynes,55,Male,Boston,Business,70944,Repaid,23378,Deposit,1604,2024-08-29
+113,Cheryl Brooks,53,Male,San Francisco,Savings,49506,Repaid,16114,Withdrawal,3974,2024-04-17
+114,Miranda Davis,60,Female,Atlanta,Savings,6309,Repaid,2472,Withdrawal,2803,2024-04-26
+115,Terry Phillips,50,Female,Houston,Business,99897,Pending,13986,Deposit,1861,2024-05-08
+116,Danielle Francis,59,Male,Atlanta,Fixed Deposit,60844,Pending,41467,Withdrawal,3511,2024-09-15
+117,Shari Boone,70,Female,Boston,Checking,43711,Declined,35426,Deposit,3867,2024-12-25
+118,Ricardo Henson,59,Female,Dallas,Checking,67681,Approved,49611,Deposit,1694,2024-08-01
+119,Michael Davidson,51,Male,Atlanta,Savings,26515,Repaid,27315,Deposit,2300,2025-01-16
+120,Katherine Baker,18,Female,Boston,Fixed Deposit,2738,Pending,41159,Withdrawal,3990,2024-12-11
+121,Jason Armstrong,34,Female,Dallas,Checking,92323,Repaid,11526,Withdrawal,4351,2024-06-09
+122,Jessica Nguyen,41,Male,Boston,Fixed Deposit,41016,Declined,8402,Withdrawal,4174,2024-04-17
+123,Stacie Morrison,68,Female,Atlanta,Business,40392,Pending,47989,Deposit,4535,2024-09-02
+124,Wendy Montoya,39,Male,Miami,Fixed Deposit,92411,Pending,35539,Withdrawal,1456,2024-03-22
+125,Alexis Robertson,62,Male,New York,Business,40467,Pending,43252,Deposit,3924,2024-03-22
+126,Leslie Wiley,58,Male,Boston,Checking,46979,Approved,36098,Deposit,886,2024-10-19
+127,Luis King,44,Female,Boston,Checking,45299,Repaid,7187,Deposit,4860,2024-12-03
+128,Marvin Vasquez,60,Male,Boston,Savings,98157,Approved,29597,Withdrawal,692,2024-12-15
+129,William Henderson,46,Male,Boston,Business,36762,Approved,11931,Deposit,300,2025-02-17
+130,Roberto Parker,22,Male,San Francisco,Fixed Deposit,30235,Approved,38848,Deposit,4517,2024-03-23
+131,Mr. Charles Powers,59,Male,New York,Fixed Deposit,6784,Approved,27027,Deposit,1248,2024-12-27
+132,Sarah Johnson,45,Female,Miami,Checking,61061,Approved,45289,Withdrawal,1501,2024-11-13
+133,Jessica Cook,34,Male,Atlanta,Business,97230,Pending,42812,Deposit,3458,2024-09-07
+134,Christopher Rodriguez,51,Male,Seattle,Savings,9245,Approved,35475,Withdrawal,710,2024-03-28
+135,Kristen Chang,68,Male,Dallas,Fixed Deposit,68505,Pending,3803,Deposit,3177,2024-10-21
+136,Mason Lee,31,Female,Seattle,Fixed Deposit,73321,Repaid,15336,Deposit,2074,2024-09-04
+137,Michael Davis,51,Female,Chicago,Business,84283,Declined,35118,Withdrawal,4689,2025-01-29
+138,Dustin Wagner,52,Male,Chicago,Savings,6786,Declined,21757,Withdrawal,2443,2024-11-29
+139,Amanda Bell,69,Female,Seattle,Fixed Deposit,15733,Repaid,6185,Deposit,1043,2024-04-04
+140,David Dawson,35,Female,Houston,Fixed Deposit,5421,Pending,48962,Deposit,4590,2024-11-26
+141,Matthew Fernandez,55,Male,Chicago,Business,44650,Pending,19005,Withdrawal,4380,2024-03-02
+142,Michael Walker,55,Female,Seattle,Fixed Deposit,56635,Approved,7473,Withdrawal,4560,2024-12-31
+143,Nicole Garcia,62,Female,New York,Savings,39938,Declined,7518,Deposit,3714,2024-08-07
+144,Melinda White,19,Female,Seattle,Savings,90971,Repaid,20147,Withdrawal,4190,2024-12-02
+145,Ricardo Long,21,Female,Seattle,Fixed Deposit,45984,Repaid,28613,Withdrawal,932,2024-07-11
+146,Paul Chung,24,Male,Seattle,Fixed Deposit,33992,Pending,45055,Deposit,4592,2024-09-18
+147,Diane Mckay,63,Male,San Francisco,Fixed Deposit,55577,Repaid,21692,Deposit,953,2024-08-11
+148,Tiffany Hickman,68,Male,Los Angeles,Savings,74232,Pending,9005,Withdrawal,2800,2024-03-03
+149,Maureen King,21,Female,Los Angeles,Savings,34553,Declined,32804,Withdrawal,210,2024-07-14
+150,Kelli Copeland,50,Female,Miami,Checking,75600,Approved,8678,Deposit,2366,2024-12-10
+151,Patricia Harrington,29,Female,Chicago,Checking,54399,Pending,34194,Deposit,3915,2024-03-11
+152,Cheryl Kim,30,Male,Boston,Checking,10760,Declined,9842,Withdrawal,852,2024-09-25
+153,Brandon Collins,49,Male,Seattle,Business,94065,Approved,21887,Withdrawal,1319,2024-03-22
+154,William Ward,48,Male,Miami,Fixed Deposit,8254,Repaid,10360,Deposit,4296,2024-06-03
+155,Kathleen Guzman,48,Female,Dallas,Business,18425,Repaid,7541,Deposit,4959,2024-03-30
+156,Hannah King,34,Female,San Francisco,Fixed Deposit,9198,Approved,45529,Deposit,1026,2024-09-30
+157,Nicholas Garza,48,Female,Miami,Savings,25460,Pending,27370,Deposit,719,2024-08-06
+158,Margaret Santiago,68,Female,San Francisco,Savings,99843,Approved,47738,Withdrawal,4610,2024-05-29
+159,James Thomas,38,Female,Los Angeles,Savings,15146,Declined,21796,Deposit,2451,2024-03-03
+160,Caleb Payne,65,Male,Boston,Fixed Deposit,80162,Repaid,24547,Withdrawal,835,2024-07-11
+161,Shannon Oliver,69,Male,Atlanta,Fixed Deposit,51676,Pending,22860,Withdrawal,3343,2024-07-04
+162,Melanie Costa,26,Female,Dallas,Fixed Deposit,72229,Declined,48010,Withdrawal,3813,2025-01-06
+163,Jane Smith,26,Female,New York,Checking,26568,Approved,17605,Withdrawal,2889,2024-08-13
+164,Glenn Bailey,62,Male,New York,Savings,54204,Repaid,26198,Deposit,3026,2024-03-25
+165,Mariah Gallagher,67,Male,Atlanta,Business,44573,Repaid,8079,Withdrawal,1810,2024-12-30
+166,Karen Banks,40,Male,Miami,Savings,59792,Declined,9482,Deposit,413,2025-01-29
+167,Tina Brown,67,Male,Dallas,Fixed Deposit,81496,Repaid,6153,Deposit,1753,2024-06-29
+168,Cindy Hawkins,37,Male,Los Angeles,Checking,18092,Repaid,16860,Withdrawal,3120,2024-07-21
+169,Kelli Morgan,56,Male,Seattle,Checking,11627,Pending,42397,Deposit,3168,2025-01-26
+170,Aaron Macdonald,27,Female,New York,Fixed Deposit,66786,Approved,22931,Deposit,1980,2024-05-31
+171,Elizabeth Chapman,54,Male,Los Angeles,Business,61675,Pending,38818,Deposit,1903,2024-12-16
+172,William Baker,43,Male,Dallas,Business,51406,Approved,39027,Withdrawal,2841,2025-01-14
+173,Kendra Morgan,50,Female,Houston,Checking,71763,Pending,19017,Deposit,2008,2024-08-07
+174,Samantha Briggs,29,Female,Houston,Savings,94996,Approved,26578,Deposit,2112,2025-01-04
+175,Deborah Martin,28,Male,Los Angeles,Checking,5934,Repaid,21929,Withdrawal,188,2024-08-28
+176,David Lopez,19,Male,San Francisco,Fixed Deposit,87098,Declined,10747,Withdrawal,3004,2024-11-05
+177,Teresa Sharp,36,Male,Houston,Fixed Deposit,80951,Repaid,29981,Withdrawal,3066,2024-12-24
+178,Thomas Fuller DDS,33,Female,Atlanta,Fixed Deposit,28750,Pending,34148,Withdrawal,3280,2025-01-25
+179,Rebecca Simpson,42,Female,Los Angeles,Savings,84728,Pending,44783,Withdrawal,2182,2024-10-26
+180,Dakota Campbell,58,Female,Dallas,Savings,7870,Approved,39454,Deposit,4146,2024-04-24
+181,Charles Sampson,51,Female,Chicago,Business,16305,Repaid,2437,Deposit,2854,2024-12-13
+182,Faith Duncan,63,Male,San Francisco,Business,67280,Approved,14491,Withdrawal,3355,2024-07-16
+183,Jeremy Edwards,21,Male,Houston,Savings,2970,Declined,26310,Deposit,4481,2024-11-20
+184,Robert Chambers,52,Male,San Francisco,Fixed Deposit,7726,Approved,40526,Deposit,2069,2024-03-08
+185,Nicole Bennett,36,Female,New York,Business,91545,Approved,46066,Withdrawal,2231,2024-10-23
+186,Matthew Crawford,36,Female,New York,Fixed Deposit,98402,Pending,8700,Withdrawal,4693,2024-08-02
+187,Anthony Lopez,59,Female,New York,Business,88599,Approved,22120,Deposit,3838,2024-08-10
+188,Douglas Murillo,65,Male,San Francisco,Business,73374,Declined,36687,Deposit,2192,2024-06-25
+189,Sandra Montgomery,26,Male,Dallas,Checking,81808,Approved,39318,Deposit,2207,2024-10-13
+190,Mark Bennett,58,Male,New York,Checking,52452,Declined,45019,Deposit,2665,2024-10-22
+191,Wendy Lopez,18,Female,Seattle,Fixed Deposit,87501,Declined,29484,Deposit,667,2024-07-29
+192,Richard Perry,66,Male,Chicago,Savings,41847,Declined,27497,Deposit,3155,2024-04-05
+193,Jeffrey Conley,50,Male,Chicago,Fixed Deposit,26835,Pending,8455,Deposit,3783,2024-08-01
+194,Mrs. Wendy Kane DDS,47,Female,Boston,Fixed Deposit,68075,Approved,4968,Withdrawal,3655,2024-05-07
+195,Lauren Taylor,60,Male,Seattle,Savings,18530,Repaid,22792,Withdrawal,3508,2024-04-29
+196,Joan Thompson,29,Male,Chicago,Savings,64276,Declined,17816,Withdrawal,694,2024-08-20
+197,Jacob Woods,26,Male,Miami,Business,29018,Repaid,8740,Deposit,2851,2024-09-28
+198,John Robertson,22,Female,Boston,Savings,19599,Repaid,4466,Withdrawal,4980,2025-01-15
+199,Michelle Reyes,28,Female,Houston,Fixed Deposit,15818,Pending,35899,Deposit,4214,2024-12-12
+200,Carmen Mills,49,Female,Miami,Checking,82802,Approved,26147,Withdrawal,3168,2024-11-27
+201,John Allen,49,Female,Dallas,Business,94988,Declined,11077,Withdrawal,1386,2024-11-21
+202,Laura Andrade,61,Female,Atlanta,Checking,94568,Declined,32529,Withdrawal,3367,2024-03-21
+203,Randall Jackson,21,Male,Atlanta,Checking,47351,Approved,3346,Deposit,4615,2024-06-08
+204,Jordan Munoz,36,Female,Chicago,Checking,68174,Declined,6258,Withdrawal,4112,2024-11-05
+205,Trevor Mclaughlin,47,Female,Los Angeles,Checking,7744,Approved,14768,Withdrawal,1898,2024-03-13
+206,Shawn Vasquez,31,Male,Atlanta,Savings,92169,Pending,25834,Withdrawal,1747,2024-03-16
+207,Lisa Jenkins,54,Male,Dallas,Business,12016,Repaid,18836,Deposit,4535,2024-07-25
+208,Timothy Shea,34,Female,Atlanta,Checking,60319,Approved,48284,Withdrawal,493,2024-10-16
+209,Lisa Kennedy,44,Male,Houston,Savings,75432,Repaid,19631,Deposit,3400,2024-10-27
+210,Daniel Bradshaw,49,Male,Chicago,Fixed Deposit,32909,Declined,9029,Deposit,500,2025-01-23
+211,Nicholas Rowe,25,Female,New York,Checking,59081,Approved,36300,Withdrawal,4166,2024-08-20
+212,William Henry,67,Male,Miami,Fixed Deposit,59595,Declined,16781,Deposit,3305,2024-08-15
+213,Michael Sandoval,68,Male,Miami,Business,5103,Declined,11350,Withdrawal,3859,2024-12-12
+214,Kathleen Cherry,35,Male,Los Angeles,Fixed Deposit,34802,Repaid,28115,Withdrawal,472,2024-03-31
+215,Eric Fischer,36,Female,San Francisco,Savings,74737,Declined,20211,Withdrawal,1233,2024-05-11
+216,Alex Johnson,64,Female,San Francisco,Savings,95232,Approved,20414,Withdrawal,2888,2025-01-11
+217,Emily Duffy,41,Female,Los Angeles,Checking,92302,Approved,1141,Withdrawal,205,2024-06-18
+218,David Johnston,35,Male,San Francisco,Fixed Deposit,46591,Repaid,8861,Withdrawal,2939,2024-12-31
+219,Mike Luna,25,Female,San Francisco,Savings,47703,Approved,2210,Deposit,3616,2024-08-01
+220,Nicole Gardner,52,Female,Houston,Savings,57455,Repaid,22836,Withdrawal,1989,2024-08-27
+221,Ann Holland,33,Male,Miami,Savings,93100,Approved,22361,Deposit,104,2024-07-24
+222,Matthew Blevins,28,Male,Boston,Checking,26558,Declined,22388,Withdrawal,2149,2024-12-08
+223,James Barrett,69,Male,Boston,Business,71078,Repaid,14655,Deposit,344,2025-02-08
+224,Lisa Mendoza,59,Male,New York,Fixed Deposit,31351,Pending,41700,Deposit,2798,2025-02-09
+225,Sheri Evans,22,Female,Chicago,Fixed Deposit,69933,Approved,11375,Withdrawal,2807,2024-04-22
+226,Jeremy Doyle,65,Female,Atlanta,Business,92135,Repaid,21118,Deposit,1647,2024-09-17
+227,Katherine Washington,28,Male,Los Angeles,Business,98482,Repaid,1087,Withdrawal,3864,2024-04-02
+228,Paula Zuniga,26,Male,Los Angeles,Checking,81110,Pending,21541,Deposit,2717,2024-05-18
+229,Rachel Williams,65,Male,New York,Business,13318,Declined,11402,Deposit,2346,2025-02-02
+230,Kyle Harris,49,Male,New York,Fixed Deposit,21115,Pending,31425,Withdrawal,2776,2024-08-13
+231,Michele Barr,31,Female,New York,Checking,61874,Pending,31584,Withdrawal,1090,2024-06-19
+232,Aaron Mills,50,Male,Chicago,Fixed Deposit,63634,Pending,40527,Deposit,2013,2024-03-30
+233,Jennifer Craig,52,Female,Seattle,Fixed Deposit,14502,Repaid,17476,Deposit,4477,2024-11-03
+234,Christopher Cowan,57,Female,Seattle,Checking,20415,Approved,47675,Withdrawal,2023,2024-10-04
+235,Samantha Webb,44,Female,Houston,Checking,82106,Declined,42213,Withdrawal,3191,2025-01-08
+236,Sharon Morrison,44,Female,San Francisco,Fixed Deposit,71862,Repaid,19673,Withdrawal,3180,2024-08-18
+237,Kristen Adams,36,Male,New York,Savings,68980,Approved,14528,Deposit,2532,2024-03-05
+238,Kevin Watts,37,Female,Houston,Fixed Deposit,45111,Declined,3756,Deposit,906,2024-04-17
+239,Louis Alexander,34,Female,Boston,Business,1152,Pending,41257,Deposit,4118,2024-12-30
+240,Kevin Rodriguez,20,Female,Seattle,Checking,97138,Approved,43444,Withdrawal,1459,2024-09-15
+241,Jamie Vasquez,29,Female,New York,Savings,17436,Pending,21492,Deposit,3737,2024-10-14
+242,Amber Miller,18,Female,Houston,Savings,89404,Repaid,815,Deposit,4809,2025-02-09
+243,Ashley Cooper,70,Male,Houston,Business,15673,Repaid,23490,Deposit,2614,2024-11-08
+244,Michael Todd,22,Female,Atlanta,Fixed Deposit,90814,Approved,25900,Withdrawal,1477,2024-03-08
+245,David Larson,31,Female,Dallas,Business,96045,Approved,21018,Deposit,268,2024-12-29
+246,Linda Donovan,39,Female,Chicago,Business,44568,Approved,32966,Withdrawal,1006,2024-08-02
+247,Adrienne Mitchell,46,Female,San Francisco,Fixed Deposit,93903,Repaid,15619,Withdrawal,4146,2024-05-17
+248,Stephanie Mccormick,41,Male,Atlanta,Fixed Deposit,69862,Pending,17051,Deposit,3871,2024-08-31
+249,Linda Cobb,30,Male,Miami,Checking,30423,Approved,37892,Deposit,1942,2024-12-18
+250,Robert Logan,65,Female,Atlanta,Checking,78689,Repaid,15171,Deposit,2385,2024-07-07
+251,Tammy Schultz,51,Male,Seattle,Fixed Deposit,76454,Pending,12360,Withdrawal,3982,2025-02-28
+252,Mary Mack,43,Male,Los Angeles,Fixed Deposit,78627,Repaid,18333,Withdrawal,3737,2024-03-17
+253,Fred Johnson,53,Female,San Francisco,Checking,30562,Pending,26410,Deposit,1894,2024-07-07
+254,Evan Tapia,41,Male,Dallas,Fixed Deposit,50636,Approved,28767,Withdrawal,1731,2024-05-26
+255,Arthur Bailey,35,Female,New York,Savings,60366,Pending,24235,Deposit,1297,2024-04-26
+256,Kyle King,25,Female,Los Angeles,Savings,99349,Declined,48623,Withdrawal,2446,2025-01-15
+257,John Garner,39,Female,Seattle,Checking,69135,Pending,28965,Withdrawal,2842,2024-10-30
+258,Laurie Oconnor,62,Female,Houston,Savings,62102,Approved,42418,Deposit,1565,2024-11-01
+259,Tiffany Gordon,25,Male,Seattle,Checking,11200,Repaid,22244,Withdrawal,1659,2025-01-16
+260,Joshua Vaughn,53,Female,Miami,Fixed Deposit,78990,Approved,36910,Deposit,369,2025-01-06
+261,Timothy Parker,56,Female,Dallas,Savings,93283,Declined,31641,Deposit,2890,2024-03-25
+262,Melody Vargas,64,Male,Miami,Fixed Deposit,92271,Declined,17117,Deposit,4948,2024-04-16
+263,Jason Soto,24,Female,Chicago,Checking,25337,Pending,21104,Withdrawal,3259,2024-06-13
+264,Lynn Prince,59,Female,Houston,Savings,64435,Pending,45513,Withdrawal,2565,2024-06-17
+265,George Davis,42,Male,Los Angeles,Fixed Deposit,1910,Repaid,14335,Deposit,4441,2024-05-31
+266,Jo Beck,34,Female,Houston,Savings,94816,Approved,48415,Withdrawal,746,2024-05-19
+267,James Nicholson,21,Male,Atlanta,Business,60970,Repaid,25304,Deposit,1839,2024-10-07
+268,Amanda Osborne,54,Female,Atlanta,Fixed Deposit,15422,Approved,13248,Deposit,2875,2024-12-06
+269,Brooke Wiggins,27,Male,Chicago,Savings,52012,Approved,2037,Withdrawal,3533,2024-07-09
+270,Edwin Jones,60,Female,Houston,Savings,71375,Repaid,29937,Withdrawal,1957,2024-10-16
+271,Robert Ramirez,21,Male,Miami,Fixed Deposit,17238,Repaid,1204,Withdrawal,1338,2024-12-18
+272,Stephanie Williams,37,Male,Chicago,Checking,84573,Pending,7489,Deposit,2849,2024-06-21
+273,Karen Nguyen,40,Female,San Francisco,Savings,75780,Repaid,8483,Deposit,2917,2024-07-22
+274,Nicholas Flores,55,Male,Los Angeles,Business,5776,Declined,6221,Withdrawal,1560,2024-12-21
+275,Katrina Wright,52,Female,Miami,Savings,75145,Repaid,11867,Withdrawal,2393,2024-09-22
+276,Nathan Bradford,25,Female,Atlanta,Savings,60829,Declined,30670,Withdrawal,749,2024-07-28
+277,Brianna Villarreal,42,Male,Seattle,Savings,99125,Approved,26309,Deposit,3495,2024-05-18
+278,Mary Shaffer,69,Male,Chicago,Business,70092,Approved,20144,Deposit,2982,2024-08-28
+279,Catherine Francis,39,Female,Boston,Fixed Deposit,36143,Pending,14155,Withdrawal,3228,2025-01-17
+280,Jacqueline Nguyen,23,Male,Houston,Business,91505,Repaid,13372,Withdrawal,1500,2024-08-12
+281,Megan Griffith,34,Male,San Francisco,Fixed Deposit,9433,Repaid,7902,Deposit,3700,2024-04-05
+282,Shannon Morris,25,Male,New York,Checking,69995,Pending,46310,Deposit,2933,2024-07-28
+283,Tiffany Reeves,52,Female,Dallas,Fixed Deposit,7185,Declined,16288,Deposit,2148,2025-02-14
+284,Hunter Barnes,36,Female,San Francisco,Checking,40510,Declined,32011,Withdrawal,3181,2024-12-31
+285,Lindsay Hoffman,40,Female,New York,Checking,12229,Repaid,13789,Withdrawal,1459,2024-11-12
+286,Duane Higgins,32,Male,New York,Checking,23333,Pending,19937,Withdrawal,3075,2025-02-28
+287,Steven Schaefer,69,Male,Houston,Checking,71149,Approved,47256,Deposit,1460,2024-08-20
+288,Thomas Garcia,44,Male,Boston,Business,10228,Approved,12388,Withdrawal,4894,2024-10-30
+289,Tracy Hall,23,Male,Dallas,Business,87725,Pending,38724,Deposit,2699,2024-11-15
+290,Ms. Carla Simmons,64,Female,New York,Savings,69463,Pending,2688,Deposit,2936,2024-03-25
+291,Joseph Ray MD,60,Female,Los Angeles,Savings,15346,Declined,12099,Withdrawal,1105,2024-05-21
+292,Sabrina George,55,Male,Dallas,Savings,79870,Declined,19578,Deposit,1891,2024-05-08
+293,Nathan Ruiz,18,Male,Los Angeles,Business,84588,Declined,14786,Withdrawal,4323,2024-08-29
+294,Cheryl Lopez,41,Male,Seattle,Savings,71559,Repaid,23833,Withdrawal,4889,2024-10-16
+295,Jessica Martinez,51,Male,Boston,Business,18949,Repaid,18912,Deposit,2736,2024-04-08
+296,Crystal Savage,46,Male,Atlanta,Checking,57784,Repaid,17133,Withdrawal,4722,2024-05-01
+297,George Castillo,47,Male,Chicago,Business,69242,Repaid,19892,Withdrawal,951,2024-10-07
+298,Tina Moran,59,Female,Seattle,Business,96249,Repaid,2633,Withdrawal,4059,2024-07-20
+299,Melissa Cox,45,Male,Dallas,Checking,36287,Repaid,20084,Withdrawal,293,2024-05-05
+300,Carlos Jones,65,Female,Seattle,Fixed Deposit,91506,Repaid,18404,Withdrawal,3678,2024-12-15
+301,Alvin Yates,44,Male,Chicago,Checking,6642,Repaid,6119,Deposit,3203,2024-07-29
+302,Adam Thomas,31,Male,Chicago,Checking,1982,Pending,37958,Withdrawal,2990,2024-06-13
+303,Miranda Long,68,Male,Boston,Checking,47879,Pending,36103,Deposit,1011,2024-05-02
+304,John Hubbard,67,Male,Los Angeles,Checking,78588,Repaid,11078,Withdrawal,4634,2024-07-26
+305,Lauren Rodriguez,68,Male,New York,Savings,21580,Pending,23039,Deposit,4330,2024-05-11
+306,Colleen Gould,42,Female,Los Angeles,Business,98573,Pending,24335,Withdrawal,855,2024-11-09
+307,Matthew Sherman,68,Male,Houston,Fixed Deposit,64315,Approved,34799,Withdrawal,779,2024-12-16
+308,Ronald Walker,21,Male,San Francisco,Checking,82206,Repaid,25203,Withdrawal,4423,2024-11-22
+309,Barbara Smith,57,Male,Boston,Business,89098,Repaid,16530,Withdrawal,2623,2024-11-01
+310,Priscilla Singleton,45,Female,New York,Checking,94257,Pending,27419,Withdrawal,3164,2024-12-04
+311,Daniel Castillo,48,Male,Boston,Business,70286,Repaid,21063,Withdrawal,3750,2024-12-19
+312,Paul Contreras,48,Female,Houston,Business,61222,Approved,10505,Withdrawal,2559,2025-02-15
+313,Robert Morales,44,Female,Atlanta,Fixed Deposit,6793,Declined,2518,Withdrawal,1444,2024-05-28
+314,Joshua Griffith,46,Male,New York,Checking,44344,Pending,36864,Deposit,1962,2024-03-13
+315,Paul Robinson,62,Male,Dallas,Savings,9042,Approved,37345,Withdrawal,1661,2024-04-29
+316,Amanda Chavez,41,Female,New York,Savings,39389,Pending,27019,Deposit,325,2024-05-27
+317,Tyler Cooper,58,Male,San Francisco,Business,68681,Repaid,26539,Withdrawal,1577,2024-08-28
+318,Lori Jones,19,Female,Los Angeles,Business,81649,Pending,36296,Withdrawal,2120,2024-11-11
+319,Catherine Webb,59,Male,Boston,Fixed Deposit,70804,Repaid,20205,Deposit,2248,2024-12-22
+320,Justin Henderson,62,Male,Boston,Fixed Deposit,72145,Pending,15899,Withdrawal,1573,2024-11-23
+321,Marie Rogers,54,Male,San Francisco,Checking,82618,Declined,21763,Deposit,1164,2024-06-13
+322,Lisa Romero,57,Male,Houston,Fixed Deposit,54359,Approved,36716,Deposit,1502,2024-10-01
+323,Erik Thomas MD,66,Male,Chicago,Savings,30534,Approved,8665,Deposit,4546,2024-09-13
+324,Diana Mckay,20,Male,Seattle,Savings,31500,Repaid,28123,Withdrawal,3290,2025-01-20
+325,David Tran,57,Male,New York,Savings,94627,Repaid,27394,Deposit,4108,2024-12-09
+326,Donald Brennan,48,Male,Miami,Checking,86826,Approved,44717,Deposit,1581,2025-01-09
+327,Tabitha Pope,32,Female,Houston,Fixed Deposit,86258,Pending,6422,Deposit,642,2024-10-27
+328,Robert Oconnor,52,Female,Dallas,Checking,4761,Approved,24969,Deposit,318,2024-10-14
+329,Thomas Holland,69,Female,Seattle,Checking,69881,Pending,44761,Withdrawal,1205,2025-01-16
+330,Jennifer Johnson,18,Female,Seattle,Savings,85950,Repaid,3179,Deposit,572,2024-06-04
+331,Regina Moore,18,Male,Boston,Business,18359,Repaid,636,Withdrawal,4575,2024-08-16
+332,Elizabeth Gallegos,68,Female,New York,Checking,77686,Pending,46892,Withdrawal,2829,2024-03-31
+333,Christopher Gamble,47,Male,Atlanta,Checking,98826,Declined,23947,Deposit,3664,2025-02-24
+334,Ebony Rose,44,Female,New York,Savings,54610,Pending,36782,Withdrawal,4841,2024-05-27
+335,Tracy Garcia,41,Male,Dallas,Checking,4833,Repaid,16630,Deposit,1491,2024-03-26
+336,Andrea Hernandez,30,Male,New York,Savings,64432,Repaid,5862,Deposit,497,2024-04-09
+337,Carrie Reid,33,Male,Dallas,Checking,19324,Pending,28051,Withdrawal,1873,2024-03-12
+338,Thomas Valdez,45,Male,New York,Fixed Deposit,93164,Declined,23779,Withdrawal,4637,2024-06-28
+339,Michael Hopkins,70,Female,Boston,Fixed Deposit,42780,Pending,24449,Withdrawal,738,2024-07-07
+340,Michelle Davis,63,Female,Houston,Savings,53496,Declined,25124,Withdrawal,4703,2024-10-12
+341,Robin Berg,29,Female,Miami,Fixed Deposit,64366,Declined,30740,Withdrawal,1175,2024-09-01
+342,Joshua Holt,55,Male,Boston,Checking,10899,Declined,24529,Withdrawal,4846,2025-01-18
+343,Mrs. Deborah Buchanan,23,Female,Boston,Checking,98895,Declined,15536,Deposit,2704,2024-08-02
+344,Anna Washington,21,Male,New York,Savings,52751,Repaid,8438,Withdrawal,3981,2024-11-02
+345,Joseph Wilson,66,Male,Chicago,Fixed Deposit,48980,Pending,46916,Withdrawal,1284,2025-01-03
+346,Daniel Moody,69,Female,Houston,Business,35257,Pending,46276,Deposit,1986,2024-05-02
+347,James Lewis,24,Male,Seattle,Savings,13627,Declined,46358,Withdrawal,781,2024-07-13
+348,Kerri Taylor,46,Male,Boston,Business,55121,Approved,41681,Withdrawal,4684,2024-03-28
+349,Timothy Wade,53,Female,Boston,Business,80046,Declined,1162,Withdrawal,2339,2024-12-23
+350,David York,46,Female,Miami,Savings,54438,Approved,27053,Deposit,3452,2024-04-14
+351,Zachary Cowan,42,Male,New York,Savings,16931,Pending,41029,Deposit,4520,2024-06-17
+352,Mark Morris,28,Male,San Francisco,Business,30332,Approved,3983,Deposit,339,2024-04-17
+353,Cynthia Harvey,37,Male,Chicago,Savings,40425,Pending,49142,Deposit,836,2024-09-27
+354,Brandon Patel,30,Female,Atlanta,Savings,7043,Declined,31044,Deposit,4136,2024-08-20
+355,Diane Castro,38,Male,Dallas,Checking,23885,Declined,16777,Deposit,832,2024-05-16
+356,Sheila Phillips,48,Female,Los Angeles,Business,75512,Declined,20801,Deposit,2505,2024-09-08
+357,Robert Welch,18,Female,Chicago,Savings,96785,Repaid,8578,Withdrawal,4890,2024-08-26
+358,Tony Richardson,41,Female,New York,Fixed Deposit,29471,Declined,12043,Withdrawal,998,2024-09-17
+359,Randall Martin,54,Female,Chicago,Savings,28735,Repaid,1975,Deposit,1028,2024-03-01
+360,Katie Mcdaniel,65,Female,Chicago,Fixed Deposit,93124,Repaid,17771,Withdrawal,883,2024-11-05
+361,Michelle Patterson,27,Male,New York,Business,76272,Approved,49367,Withdrawal,3138,2024-08-29
+362,Michael King,58,Male,New York,Business,89380,Repaid,5095,Withdrawal,100,2024-03-08
+363,Matthew Hernandez,24,Male,Seattle,Fixed Deposit,76833,Pending,8471,Deposit,338,2024-08-29
+364,Jose Pineda,20,Female,Los Angeles,Business,65842,Declined,30776,Deposit,2555,2024-10-12
+365,Joseph Rodriguez,68,Male,Dallas,Savings,86059,Approved,24862,Withdrawal,2405,2024-03-01
+366,Harold Knapp,41,Male,Dallas,Fixed Deposit,14441,Approved,22723,Deposit,4948,2025-01-04
+367,Mark Perez,36,Female,San Francisco,Fixed Deposit,5695,Approved,44782,Deposit,3727,2024-04-25
+368,Kevin Griffin,21,Male,Los Angeles,Fixed Deposit,2181,Approved,13942,Deposit,2452,2024-09-11
+369,Laura King,60,Male,San Francisco,Savings,62510,Approved,44301,Deposit,4809,2024-05-29
+370,Tracy Shaw,63,Male,Seattle,Savings,42415,Pending,21863,Withdrawal,401,2024-08-10
+371,Diana Simpson,31,Male,Seattle,Checking,53348,Repaid,5213,Withdrawal,4759,2024-08-06
+372,Amy Hayes,66,Male,New York,Business,18406,Approved,44061,Withdrawal,2937,2024-08-22
+373,Angela Jones,61,Male,Miami,Savings,6833,Pending,42074,Withdrawal,3736,2024-11-28
+374,Todd Gregory,65,Female,Houston,Checking,13263,Approved,21117,Deposit,794,2024-08-18
+375,Diane Keith,64,Male,Miami,Savings,66572,Repaid,4543,Deposit,1540,2024-04-14
+376,Lucas Hernandez,65,Male,Los Angeles,Savings,51456,Repaid,10978,Withdrawal,160,2024-07-01
+377,Courtney Wilson,27,Female,San Francisco,Fixed Deposit,42930,Approved,27326,Deposit,2289,2024-07-17
+378,Mrs. Jessica Smith,56,Female,Miami,Fixed Deposit,10322,Approved,3011,Withdrawal,2715,2024-10-19
+379,Denise Garza,42,Male,San Francisco,Fixed Deposit,33580,Declined,28903,Withdrawal,3022,2024-06-28
+380,Richard Carr,58,Male,Miami,Checking,47143,Repaid,16144,Deposit,1607,2024-06-03
+381,Jeffrey Wright,51,Male,Los Angeles,Business,31289,Repaid,3247,Deposit,4953,2024-08-04
+382,Erin Jordan,49,Male,Los Angeles,Checking,32233,Repaid,14249,Withdrawal,3458,2024-04-21
+383,Ellen Bryan,56,Male,Atlanta,Business,27560,Pending,36509,Deposit,303,2024-10-19
+384,Richard Clark,30,Male,Los Angeles,Business,22571,Repaid,1199,Deposit,2989,2024-09-16
+385,Bryan Powers,56,Male,Houston,Savings,49405,Repaid,2726,Deposit,4558,2024-09-07
+386,Joseph Larson,41,Female,Houston,Business,86714,Pending,19722,Deposit,4332,2024-11-27
+387,Sandra Velasquez,42,Female,New York,Fixed Deposit,78057,Approved,47619,Withdrawal,1099,2025-02-21
+388,Samantha Jackson,45,Female,Chicago,Business,17585,Declined,4746,Deposit,3808,2024-07-22
+389,Melanie Mitchell,24,Male,Los Angeles,Checking,24344,Declined,41639,Deposit,3010,2024-04-24
+390,Jonathan Frazier,25,Female,San Francisco,Fixed Deposit,74883,Pending,17901,Deposit,1021,2024-08-17
+391,Sean Cook,48,Male,Miami,Savings,74468,Approved,34884,Withdrawal,1777,2024-06-13
+392,Craig Lopez,35,Male,Dallas,Business,98656,Approved,26923,Withdrawal,3532,2024-12-14
+393,Christopher Cummings,61,Male,Atlanta,Checking,47230,Approved,23855,Deposit,4257,2024-08-20
+394,Christopher Phillips,27,Female,Los Angeles,Savings,28892,Approved,24512,Deposit,3131,2024-06-05
+395,Kristen Ballard,20,Male,Chicago,Savings,35410,Pending,31974,Deposit,4555,2024-03-31
+396,Erin Stone,69,Female,New York,Checking,51525,Declined,32836,Withdrawal,273,2024-06-16
+397,Eric Flores,33,Female,San Francisco,Checking,59923,Pending,41036,Withdrawal,4395,2024-04-08
+398,Michael Jackson,56,Female,Houston,Savings,85708,Declined,2494,Deposit,3953,2024-07-22
+399,Kevin Jones,56,Male,San Francisco,Fixed Deposit,58332,Approved,42339,Deposit,4918,2024-07-23
+400,Christina Owens,28,Male,Seattle,Savings,61045,Repaid,6063,Deposit,1627,2024-12-09
+401,Heather Wolf,60,Female,Miami,Savings,33904,Repaid,27143,Withdrawal,225,2025-01-17
+402,Raymond Bishop,18,Female,Boston,Business,83448,Declined,40849,Withdrawal,4817,2024-04-26
+403,Crystal Smith,70,Female,Chicago,Fixed Deposit,92980,Declined,10552,Deposit,2929,2025-01-08
+404,Emma Chambers,67,Female,Dallas,Business,69423,Declined,3399,Deposit,1738,2024-11-07
+405,Jeffrey Newton,35,Female,Los Angeles,Savings,89016,Repaid,21551,Deposit,3320,2024-04-01
+406,Ashley Meyers,62,Female,Chicago,Business,55094,Approved,8259,Deposit,3275,2024-11-07
+407,Michael Thompson,58,Female,San Francisco,Business,22248,Approved,2341,Deposit,4641,2024-12-21
+408,Brandon Werner,58,Male,Seattle,Fixed Deposit,81428,Declined,11020,Deposit,3860,2024-10-26
+409,Ashley Tanner,46,Female,New York,Savings,8243,Pending,42152,Withdrawal,4505,2024-08-21
+410,Joseph Hughes,22,Female,Miami,Fixed Deposit,42501,Repaid,10534,Deposit,3228,2024-08-25
+411,Katherine Rose,37,Male,Seattle,Business,61713,Approved,49450,Deposit,1938,2024-07-30
+412,Terry Roach,41,Male,Houston,Checking,89133,Declined,49081,Withdrawal,3224,2024-05-30
+413,Anne Whitehead,38,Female,Houston,Business,99729,Approved,29253,Withdrawal,101,2024-04-12
+414,Andrew Estrada,20,Male,Dallas,Checking,24366,Repaid,21863,Withdrawal,1522,2024-05-08
+415,Evan Sanchez,68,Male,Houston,Business,61805,Repaid,1664,Withdrawal,2406,2024-03-28
+416,Cassandra Powell,45,Male,Chicago,Fixed Deposit,9244,Approved,3012,Withdrawal,3331,2025-02-05
+417,Taylor Adams MD,49,Female,Boston,Fixed Deposit,81485,Declined,4936,Deposit,4882,2024-10-11
+418,Dustin Grant,34,Female,Los Angeles,Savings,22516,Pending,45835,Deposit,2083,2024-09-30
+419,Maria Grant DVM,62,Male,Boston,Business,73253,Repaid,16026,Deposit,2849,2024-03-10
+420,Michael Odom,25,Female,San Francisco,Fixed Deposit,66976,Pending,5126,Deposit,365,2025-01-17
+421,Colleen Barrett,65,Female,Atlanta,Savings,42283,Approved,11897,Withdrawal,2159,2024-12-06
+422,Gabriella Allen,48,Female,Seattle,Fixed Deposit,5478,Approved,31086,Withdrawal,1708,2024-11-19
+423,Lori Becker,18,Male,Los Angeles,Savings,85522,Declined,3675,Withdrawal,131,2024-11-12
+424,Gabriel Wright,43,Male,Houston,Business,47176,Approved,33844,Withdrawal,2915,2024-07-20
+425,Caitlin Jones,41,Male,Miami,Checking,82629,Declined,5176,Deposit,1591,2024-05-30
+426,Antonio White,43,Male,Miami,Fixed Deposit,30680,Repaid,8492,Withdrawal,1867,2024-11-27
+427,Stephen Anderson,26,Male,Atlanta,Checking,34467,Approved,4216,Deposit,4950,2024-06-07
+428,Dr. Janet Lynch,37,Female,Houston,Savings,58627,Pending,21104,Withdrawal,2366,2025-02-08
+429,Christopher Rodriguez,22,Female,Atlanta,Business,62789,Approved,29104,Deposit,466,2024-08-15
+430,David Rodriguez,37,Male,New York,Savings,59125,Pending,40987,Deposit,340,2024-10-19
+431,Regina Hodge,56,Female,New York,Fixed Deposit,32039,Repaid,24241,Withdrawal,783,2024-11-06
+432,Jason Stanley,21,Male,Atlanta,Savings,25029,Declined,13658,Deposit,4172,2024-08-02
+433,Lisa Martin,25,Male,Atlanta,Savings,81058,Approved,30306,Deposit,3433,2024-12-13
+434,Carla Taylor,49,Male,Miami,Business,61226,Pending,24839,Withdrawal,298,2024-11-10
+435,Melinda Lewis,23,Male,Seattle,Business,8833,Pending,29050,Deposit,3239,2024-07-28
+436,Keith Maynard,37,Female,Los Angeles,Fixed Deposit,52007,Repaid,18941,Deposit,1889,2024-03-17
+437,Shawn Valenzuela,38,Female,Atlanta,Checking,36632,Pending,49722,Withdrawal,949,2024-05-23
+438,Laura Murphy,69,Male,Houston,Fixed Deposit,1393,Declined,47155,Deposit,4439,2024-11-11
+439,Adam Graham,68,Female,New York,Business,39753,Repaid,24635,Withdrawal,3307,2024-09-26
+440,Jeffrey Gonzalez,40,Male,New York,Checking,17333,Repaid,17687,Withdrawal,2130,2024-06-29
+441,Denise Payne,61,Male,Seattle,Business,90161,Approved,43915,Withdrawal,698,2024-05-20
+442,Alexander Wilson,40,Female,San Francisco,Business,681,Repaid,15076,Withdrawal,379,2024-08-06
+443,Shari Perry,45,Female,New York,Fixed Deposit,54943,Repaid,7205,Withdrawal,3602,2024-06-06
+444,Joel Jackson,48,Female,Boston,Business,82428,Approved,2503,Withdrawal,3261,2024-09-24
+445,Harold Garza,63,Male,New York,Checking,28895,Approved,45701,Deposit,129,2024-11-15
+446,Daniel Thompson,64,Female,Houston,Savings,92112,Repaid,14409,Withdrawal,4056,2024-09-04
+447,Samantha Carlson,63,Female,Miami,Fixed Deposit,57596,Repaid,13688,Withdrawal,4386,2024-11-03
+448,Kelsey Rogers,58,Female,New York,Savings,64848,Approved,40739,Deposit,4451,2024-05-24
+449,Melissa Wyatt,25,Female,Miami,Savings,78238,Pending,8443,Withdrawal,1374,2024-07-06
+450,Teresa Jones,55,Female,New York,Business,20518,Repaid,9944,Deposit,2891,2024-06-08
+451,Travis Brown,27,Female,Houston,Savings,70128,Declined,49459,Withdrawal,3188,2024-05-04
+452,Scott Barrera,34,Male,Miami,Business,34538,Repaid,22847,Withdrawal,3776,2024-03-26
+453,Meredith Mays,31,Female,Houston,Checking,92935,Repaid,8420,Withdrawal,2579,2024-08-16
+454,Derrick Graham MD,60,Female,Los Angeles,Business,34859,Pending,23682,Deposit,2878,2024-07-11
+455,Christopher Harris,37,Male,New York,Fixed Deposit,28904,Approved,11411,Deposit,3547,2024-04-10
+456,James Wagner,37,Female,Seattle,Business,13322,Repaid,16197,Deposit,1436,2024-06-07
+457,Alison Nguyen,65,Male,Chicago,Fixed Deposit,55665,Approved,49603,Deposit,3694,2024-04-25
+458,David Brown,59,Male,Miami,Business,54976,Declined,49811,Deposit,775,2024-07-24
+459,Brandi Baker,22,Female,Chicago,Checking,53992,Declined,24661,Withdrawal,4443,2025-01-08
+460,Scott Ruiz,49,Male,Los Angeles,Business,87132,Repaid,8981,Deposit,4631,2024-07-03
+461,Alexa King,54,Male,Seattle,Business,59808,Approved,1131,Deposit,3378,2024-05-29
+462,Manuel Goodwin,67,Female,Chicago,Savings,36674,Declined,10606,Withdrawal,2477,2024-10-10
+463,John Rodriguez,29,Female,Boston,Business,14252,Repaid,28739,Withdrawal,974,2024-11-20
+464,Nathan Mcclure,47,Female,Seattle,Savings,60353,Declined,18697,Deposit,2900,2024-05-30
+465,Ian Cabrera,67,Female,Chicago,Business,16559,Approved,27967,Deposit,4832,2024-11-13
+466,Briana Smith,34,Male,Houston,Fixed Deposit,50730,Declined,31235,Withdrawal,1560,2024-11-24
+467,Jonathan White,42,Female,New York,Fixed Deposit,99017,Repaid,16090,Withdrawal,4616,2024-09-30
+468,Cindy Escobar,56,Male,Los Angeles,Business,74379,Repaid,26424,Withdrawal,4190,2024-06-30
+469,Audrey Reese,61,Male,New York,Savings,63393,Pending,10497,Deposit,2505,2024-05-06
+470,Tristan Brooks,32,Male,New York,Checking,33390,Approved,9086,Deposit,3838,2024-11-17
+471,Marc Jacobs,25,Male,Chicago,Business,45734,Repaid,13371,Withdrawal,4446,2024-11-21
+472,Christopher Gill,38,Female,Atlanta,Savings,5024,Approved,7579,Withdrawal,4104,2025-01-29
+473,Erica Stephenson,70,Male,Chicago,Savings,35437,Declined,8630,Withdrawal,1832,2024-08-07
+474,Jose Forbes,30,Male,New York,Checking,20802,Repaid,14725,Deposit,1001,2024-04-09
+475,John Parker,69,Male,Boston,Savings,13322,Pending,40136,Withdrawal,3257,2024-09-19
+476,James Allen,45,Female,Dallas,Checking,35226,Repaid,20084,Withdrawal,3739,2024-09-05
+477,Jonathan Gutierrez,50,Male,New York,Checking,1349,Pending,12579,Withdrawal,2027,2024-11-14
+478,Troy Hickman,59,Male,San Francisco,Checking,16964,Repaid,3219,Deposit,1303,2024-08-17
+479,Jessica Hunter,49,Female,San Francisco,Savings,82953,Repaid,2508,Withdrawal,166,2024-11-03
+480,Brett Lopez,46,Female,Boston,Business,64783,Declined,21291,Deposit,418,2024-06-13
+481,Kara Sullivan,58,Male,San Francisco,Checking,16342,Repaid,19781,Withdrawal,4215,2024-07-31
+482,Maureen Rivera,37,Male,Dallas,Business,69524,Approved,5442,Withdrawal,1015,2024-12-09
+483,Kristina Benton,53,Male,Boston,Savings,69997,Pending,12641,Deposit,838,2024-10-09
+484,Rebecca Zamora,37,Male,New York,Business,6772,Pending,5620,Deposit,1368,2024-12-01
+485,Brianna Hood,22,Male,Atlanta,Savings,33769,Approved,37598,Deposit,4953,2024-04-06
+486,David Braun,34,Female,Dallas,Savings,69142,Repaid,27408,Deposit,4133,2025-01-22
+487,Phillip Kelley,39,Male,Los Angeles,Business,28690,Declined,28558,Deposit,4583,2024-12-07
+488,Tina Patel,62,Male,Dallas,Business,75081,Declined,18144,Deposit,248,2024-08-14
+489,Linda Aguirre,57,Female,New York,Business,93482,Pending,16859,Withdrawal,3124,2024-07-11
+490,Susan Jackson MD,55,Male,San Francisco,Savings,52358,Pending,36792,Deposit,2675,2024-09-03
+491,Juan Rush,52,Male,Chicago,Business,39490,Pending,4749,Withdrawal,1742,2024-07-31
+492,Katherine Harrell,43,Male,Seattle,Savings,48395,Declined,6079,Withdrawal,2079,2024-08-21
+493,Michael Parks,30,Female,Miami,Savings,54140,Repaid,17729,Deposit,154,2024-03-01
+494,Thomas Myers,46,Male,Los Angeles,Business,46659,Approved,15413,Deposit,4941,2024-07-07
+495,Kim Stevenson,59,Male,Seattle,Business,41961,Pending,37809,Deposit,2863,2024-12-19
+496,Austin Barry,62,Female,San Francisco,Savings,40014,Declined,29767,Deposit,3067,2024-06-27
+497,Lauren Sanchez,37,Female,Los Angeles,Fixed Deposit,77399,Pending,6819,Deposit,4011,2025-02-24
+498,Ms. Tiffany Gonzales,37,Male,San Francisco,Business,13519,Approved,28169,Deposit,4759,2024-04-27
+499,Sabrina Clark,48,Male,Los Angeles,Business,33343,Pending,11833,Withdrawal,4729,2024-07-23
+500,Amy Woods,52,Male,Chicago,Savings,12120,Pending,23508,Deposit,3964,2024-12-25
+501,Crystal Payne,37,Female,Atlanta,Checking,38014,Pending,25700,Withdrawal,1274,2024-07-01
+502,Dylan Dillon,21,Male,Atlanta,Checking,95192,Pending,35799,Withdrawal,3211,2024-03-06
+503,Kenneth Khan,27,Male,Atlanta,Fixed Deposit,50173,Pending,16345,Deposit,4392,2024-04-13
+504,Yvonne Smith,66,Female,Boston,Checking,29249,Approved,43796,Withdrawal,773,2024-10-01
+505,Danielle Farmer,41,Female,Dallas,Business,33965,Repaid,22022,Withdrawal,4272,2024-09-11
+506,Jessica Perez,66,Female,Los Angeles,Checking,72130,Repaid,13486,Deposit,851,2024-12-31
+507,Kimberly Mercer,46,Male,Seattle,Fixed Deposit,83385,Approved,22068,Deposit,1975,2024-08-17
+508,Emily Livingston,64,Female,Los Angeles,Checking,36346,Repaid,25683,Withdrawal,2017,2024-09-25
+509,Edward Hudson,66,Female,Boston,Business,34041,Pending,2898,Withdrawal,775,2024-08-04
+510,Daniel Mendez,54,Female,Boston,Business,42613,Approved,23340,Deposit,2497,2024-07-30
+511,Elizabeth Griffin,37,Male,Dallas,Checking,80198,Repaid,25662,Deposit,2640,2024-06-07
+512,John Evans,63,Male,Miami,Business,77166,Pending,34840,Withdrawal,2636,2025-01-01
+513,Angela Smith,24,Female,San Francisco,Fixed Deposit,24445,Repaid,3727,Deposit,747,2024-04-21
+514,Dorothy Howard,44,Male,Boston,Business,91021,Approved,32271,Withdrawal,4371,2024-07-26
+515,Chad Berry,24,Female,New York,Business,97601,Approved,3355,Deposit,4962,2024-05-21
+516,Terrence Ward,59,Female,Miami,Savings,27192,Declined,39976,Withdrawal,4992,2024-07-05
+517,Joshua Price,33,Female,Houston,Fixed Deposit,63527,Pending,27467,Withdrawal,1277,2024-04-23
+518,Samantha Adams,20,Female,Dallas,Savings,19213,Pending,24819,Withdrawal,2242,2024-07-07
+519,Christopher Smith,34,Female,Chicago,Checking,35202,Declined,39600,Withdrawal,4393,2024-11-09
+520,Rachel Mcbride DDS,42,Male,Seattle,Checking,33259,Declined,8518,Withdrawal,3450,2024-12-09
+521,Peter Myers DDS,55,Male,Miami,Savings,20411,Declined,37089,Withdrawal,1659,2024-05-30
+522,John Sandoval,62,Male,Boston,Savings,95591,Approved,23769,Withdrawal,367,2024-11-01
+523,Joseph Freeman,41,Male,Miami,Savings,58272,Declined,18557,Deposit,210,2024-12-22
+524,Heather Waller,53,Female,Dallas,Fixed Deposit,16803,Repaid,24089,Deposit,4079,2024-06-15
+525,Felicia Hopkins,33,Female,San Francisco,Savings,53511,Repaid,13357,Deposit,3325,2025-01-09
+526,Rebecca Fuentes,49,Male,Seattle,Fixed Deposit,90422,Repaid,17302,Deposit,2332,2024-09-13
+527,Rhonda Miller,27,Male,Houston,Business,92003,Repaid,5601,Withdrawal,4478,2025-01-09
+528,Kyle Collins,55,Female,Houston,Fixed Deposit,67382,Approved,9872,Deposit,1235,2024-09-03
+529,Stacy Harrison,33,Female,Chicago,Fixed Deposit,85861,Approved,45934,Withdrawal,4988,2025-02-20
+530,Jamie Whitehead,20,Female,Seattle,Savings,56487,Pending,31503,Deposit,2258,2024-08-07
+531,Daniel Espinoza,57,Male,Seattle,Fixed Deposit,63245,Approved,29742,Withdrawal,1347,2025-01-21
+532,Wesley Henson,18,Female,New York,Fixed Deposit,52053,Approved,40556,Withdrawal,4089,2024-11-30
+533,Michael Robinson,43,Male,Houston,Savings,78330,Approved,20609,Withdrawal,2802,2024-10-03
+534,Shelly Moore,25,Female,Dallas,Savings,71969,Declined,1155,Deposit,312,2024-06-22
+535,Phyllis Anderson,45,Female,Boston,Savings,57987,Approved,14439,Withdrawal,3891,2024-12-10
+536,Matthew Flores,34,Female,Miami,Checking,27002,Approved,32163,Deposit,3521,2024-08-21
+537,Jason Cruz,61,Male,Chicago,Fixed Deposit,50166,Repaid,4173,Withdrawal,2782,2024-04-22
+538,Craig Cortez,35,Male,Seattle,Checking,6959,Pending,17596,Withdrawal,3261,2024-09-20
+539,Charles Baker,37,Female,Los Angeles,Checking,93400,Approved,24007,Deposit,4739,2024-07-11
+540,Mrs. Lynn Ross,38,Female,New York,Fixed Deposit,96942,Pending,9880,Withdrawal,1286,2025-02-09
+541,Kelly Turner,39,Male,Houston,Savings,9337,Declined,9650,Deposit,1700,2025-01-21
+542,Patricia Hess,23,Female,New York,Savings,1753,Pending,9484,Deposit,3991,2024-10-28
+543,Michael Thomas,70,Male,Los Angeles,Fixed Deposit,56917,Pending,38983,Deposit,3552,2024-05-01
+544,Allison Callahan,36,Female,New York,Checking,3045,Declined,28564,Withdrawal,2455,2025-02-21
+545,Jamie Mercer,38,Male,Boston,Fixed Deposit,70583,Declined,42393,Deposit,2852,2024-03-09
+546,Lance Cruz,43,Male,Chicago,Business,71607,Approved,25826,Withdrawal,3549,2024-08-20
+547,Amy Craig,70,Male,Chicago,Business,52343,Approved,30706,Deposit,1326,2024-05-07
+548,Raymond Gray,60,Male,Miami,Fixed Deposit,72440,Declined,16102,Deposit,4586,2024-03-08
+549,Jennifer Jackson DVM,37,Female,Chicago,Business,87341,Approved,37269,Withdrawal,1236,2024-10-29
+550,Jonathan Russell,43,Female,Atlanta,Checking,63146,Repaid,2304,Deposit,2928,2024-07-10
+551,Steven Arnold,48,Male,Los Angeles,Savings,77069,Pending,40892,Deposit,4144,2025-02-12
+552,Robert Mckenzie,55,Male,Boston,Business,94543,Declined,25816,Withdrawal,2873,2024-09-25
+553,Tina Diaz,46,Male,Miami,Checking,759,Approved,34579,Deposit,3657,2024-10-09
+554,Emily Lopez,55,Male,San Francisco,Savings,95002,Repaid,4363,Withdrawal,3418,2024-04-01
+555,Katherine Kirk,46,Male,Chicago,Savings,63881,Repaid,11194,Deposit,2978,2024-06-03
+556,David Moore,30,Male,Seattle,Fixed Deposit,8055,Pending,36275,Withdrawal,3630,2024-05-30
+557,Katie Lowe,62,Female,Houston,Savings,86087,Declined,39863,Withdrawal,1791,2024-09-21
+558,Patricia Simpson,61,Male,Boston,Business,23300,Approved,10456,Withdrawal,442,2024-08-23
+559,Julia Dixon,65,Female,Houston,Checking,36358,Approved,5722,Withdrawal,3151,2024-09-12
+560,Joseph Francis,45,Female,New York,Business,30461,Approved,24481,Withdrawal,4241,2024-04-20
+561,Shannon Yates,48,Female,Los Angeles,Savings,7806,Pending,40945,Withdrawal,2536,2024-11-26
+562,Susan Weber,65,Male,Dallas,Savings,7410,Approved,48456,Withdrawal,193,2025-01-04
+563,Lisa Fry,50,Female,Atlanta,Business,65798,Declined,21415,Withdrawal,4573,2024-05-08
+564,Lisa Li,52,Female,San Francisco,Savings,31524,Declined,37068,Withdrawal,282,2024-03-16
+565,James Turner,36,Female,Atlanta,Fixed Deposit,52286,Repaid,19973,Deposit,1627,2024-10-23
+566,Robert Goodwin,67,Female,New York,Savings,67229,Approved,14112,Deposit,849,2024-12-24
+567,Brandon Cole,58,Male,Los Angeles,Checking,42099,Repaid,17757,Withdrawal,3746,2024-07-13
+568,Joseph Decker,30,Male,Chicago,Fixed Deposit,53874,Pending,34145,Deposit,354,2024-04-24
+569,Rodney Moore,39,Male,Atlanta,Checking,30374,Pending,36973,Deposit,2877,2025-01-11
+570,Benjamin Roberts,45,Male,Houston,Business,14554,Declined,25010,Deposit,1243,2024-03-07
+571,Tyler Cross,28,Male,New York,Checking,61137,Approved,46788,Withdrawal,1049,2024-07-24
+572,Bradley Morrison,48,Male,Boston,Checking,89864,Repaid,5842,Deposit,107,2024-07-21
+573,Douglas Washington,59,Female,San Francisco,Business,39773,Pending,16973,Deposit,4563,2025-02-13
+574,Steven Lee,52,Male,Seattle,Savings,45813,Pending,39349,Deposit,2871,2024-11-08
+575,Kelly Clark,33,Male,Houston,Checking,58962,Declined,21562,Withdrawal,584,2024-10-31
+576,Brandon Garcia,61,Female,New York,Checking,75535,Declined,44973,Deposit,3465,2024-03-20
+577,David Owens,57,Male,Houston,Business,68478,Approved,46310,Deposit,3620,2025-02-16
+578,Daniel Chavez,37,Male,Boston,Fixed Deposit,44854,Declined,8003,Deposit,1968,2024-09-18
+579,Jennifer Strickland MD,53,Female,New York,Business,65896,Approved,4488,Deposit,2070,2024-07-07
+580,Matthew Singleton,31,Female,Houston,Savings,77534,Declined,48547,Deposit,286,2024-08-17
+581,Tiffany Scott,32,Male,Chicago,Fixed Deposit,42866,Declined,23684,Withdrawal,1469,2024-06-06
+582,Stephen Bailey,56,Female,Miami,Fixed Deposit,76607,Declined,32375,Withdrawal,536,2024-11-14
+583,James Acevedo,56,Male,San Francisco,Fixed Deposit,5967,Declined,15474,Withdrawal,3814,2024-03-18
+584,Alisha Cervantes,41,Male,Dallas,Checking,18710,Approved,21066,Withdrawal,4206,2024-07-30
+585,Sharon Schultz,63,Female,Seattle,Savings,69601,Approved,21764,Deposit,2465,2024-10-21
+586,Kristie Hall,70,Female,Houston,Savings,17849,Declined,39086,Withdrawal,749,2024-12-02
+587,Kimberly Ali,26,Female,Dallas,Business,60455,Pending,26857,Deposit,1984,2024-06-25
+588,Sharon Knight,48,Female,Los Angeles,Business,46627,Repaid,2249,Deposit,3199,2024-11-16
+589,Tiffany Reed,66,Male,Atlanta,Savings,4356,Approved,45792,Withdrawal,3713,2025-02-04
+590,Brett Cruz,37,Male,Boston,Fixed Deposit,56196,Declined,44338,Deposit,1966,2024-03-30
+591,Stephen Zimmerman,38,Female,Dallas,Business,92250,Repaid,22440,Deposit,372,2024-12-11
+592,Laura Burns,30,Male,Atlanta,Checking,90096,Repaid,757,Withdrawal,1785,2025-02-06
+593,Jason Parker,54,Female,Miami,Savings,65803,Pending,47792,Deposit,2654,2024-11-21
+594,Sherry Davis,46,Female,Miami,Fixed Deposit,10626,Repaid,11615,Deposit,1949,2024-08-26
+595,Jade Palmer,45,Male,Dallas,Fixed Deposit,63307,Pending,3758,Withdrawal,3121,2024-07-31
+596,Valerie Simmons,58,Male,Miami,Fixed Deposit,83332,Pending,30158,Withdrawal,2812,2025-01-28
+597,Justin Orr,24,Female,Boston,Fixed Deposit,34197,Declined,48350,Withdrawal,1973,2024-03-31
+598,James Paul,64,Male,Boston,Fixed Deposit,47303,Pending,27728,Deposit,1686,2024-12-08
+599,John Stewart,68,Female,New York,Business,15834,Declined,13412,Deposit,765,2024-03-17
+600,Nancy Snyder,60,Male,New York,Fixed Deposit,81139,Pending,22188,Deposit,1131,2024-12-08
+601,Margaret Woods,22,Male,Dallas,Checking,45338,Repaid,18328,Deposit,4323,2025-02-08
+602,Brianna Martin,40,Male,San Francisco,Savings,23004,Repaid,4961,Deposit,1194,2025-01-17
+603,Nancy Sweeney,65,Male,Houston,Fixed Deposit,36242,Declined,23502,Deposit,4274,2024-07-13
+604,Nina Mitchell,56,Female,Los Angeles,Fixed Deposit,63990,Pending,27695,Deposit,4235,2024-05-01
+605,Kevin Osborne,49,Male,Chicago,Checking,70319,Declined,48242,Withdrawal,3607,2024-08-11
+606,John Stafford,26,Male,Los Angeles,Checking,11738,Repaid,24618,Withdrawal,638,2024-08-02
+607,James Fischer,68,Female,Dallas,Checking,63281,Pending,38883,Deposit,1398,2024-06-10
+608,April Gonzalez,24,Female,Seattle,Fixed Deposit,35638,Approved,34396,Withdrawal,4453,2024-05-11
+609,Kathleen Jenkins,47,Female,Houston,Fixed Deposit,38178,Pending,20421,Withdrawal,4536,2025-02-03
+610,Katherine Savage,34,Male,Houston,Savings,55216,Repaid,5030,Withdrawal,3679,2024-04-13
+611,Angela Cooper,27,Female,Chicago,Fixed Deposit,76789,Approved,39351,Withdrawal,1118,2024-04-28
+612,Ashlee Bray,34,Female,New York,Checking,78801,Pending,40328,Withdrawal,3546,2024-06-16
+613,Travis Davis,22,Female,San Francisco,Business,38853,Repaid,26330,Deposit,2468,2024-07-07
+614,Dustin Reynolds,34,Male,San Francisco,Fixed Deposit,48067,Repaid,11556,Deposit,4707,2024-10-05
+615,Angelica Perez,39,Female,Los Angeles,Savings,58926,Repaid,29706,Withdrawal,1464,2024-08-20
+616,David Smith,29,Female,Houston,Fixed Deposit,6307,Repaid,958,Deposit,4927,2024-11-12
+617,Mr. Craig Hart,24,Male,Dallas,Business,22289,Declined,30116,Withdrawal,2060,2024-04-19
+618,Kimberly Lewis,49,Female,Los Angeles,Checking,33906,Declined,34582,Withdrawal,4806,2025-02-20
+619,Julie Benton,45,Female,Houston,Business,39979,Pending,17534,Withdrawal,4734,2024-08-29
+620,Alexander Deleon,41,Female,Seattle,Business,94839,Declined,26628,Deposit,3481,2024-12-04
+621,Jesse Farmer,59,Female,Seattle,Savings,28730,Pending,43540,Withdrawal,1879,2024-10-16
+622,Maria Hamilton,70,Male,Seattle,Fixed Deposit,59082,Approved,47776,Withdrawal,2522,2024-05-17
+623,Andrea Johnson,65,Male,New York,Checking,34569,Pending,35367,Withdrawal,4752,2024-11-21
+624,Tanya Murphy,28,Female,Seattle,Savings,56396,Declined,24496,Withdrawal,2078,2024-05-14
+625,Brian Christensen,43,Male,Seattle,Fixed Deposit,33362,Pending,41165,Withdrawal,1149,2024-04-11
+626,Matthew Franklin,39,Female,Miami,Fixed Deposit,20141,Repaid,1187,Deposit,3031,2024-06-09
+627,Travis Finley,33,Female,Miami,Fixed Deposit,44719,Repaid,15905,Withdrawal,1990,2024-08-12
+628,Michelle Cowan,41,Female,Chicago,Business,72046,Declined,31727,Deposit,4485,2024-11-07
+629,James Camacho,24,Male,Boston,Savings,39493,Repaid,21862,Withdrawal,2155,2024-08-29
+630,Grace Hill,52,Female,Seattle,Savings,10231,Repaid,25290,Withdrawal,4764,2024-03-26
+631,Micheal Rodriguez,53,Female,Miami,Fixed Deposit,23708,Pending,38788,Withdrawal,1731,2024-11-09
+632,Daniel Lucas,68,Female,Seattle,Business,61919,Declined,34712,Deposit,3657,2024-08-17
+633,Mark Rosario,19,Female,Boston,Checking,18715,Declined,33341,Deposit,2586,2024-12-20
+634,Ashley Burns,61,Male,New York,Business,95715,Approved,41793,Withdrawal,191,2025-01-29
+635,Craig Cortez,27,Female,Boston,Savings,53909,Pending,28181,Withdrawal,1554,2024-05-15
+636,Kimberly Davis,59,Female,Dallas,Business,58412,Repaid,3384,Deposit,3203,2024-10-27
+637,Helen Brown,39,Female,Boston,Checking,81365,Declined,1056,Withdrawal,2086,2025-01-08
+638,Christina Taylor,64,Male,Dallas,Savings,94475,Pending,21536,Deposit,936,2024-10-20
+639,Harry Smith,44,Female,Chicago,Fixed Deposit,32962,Repaid,21708,Withdrawal,899,2024-12-20
+640,Lonnie Henry,27,Female,Los Angeles,Checking,11205,Repaid,13874,Withdrawal,3471,2025-02-01
+641,Mr. David Franklin,33,Male,Dallas,Fixed Deposit,40831,Repaid,4051,Withdrawal,4746,2024-03-29
+642,Andrea Daniel,48,Female,Los Angeles,Savings,47385,Pending,20917,Deposit,4956,2024-06-18
+643,Ryan Shelton,61,Male,Dallas,Savings,69403,Pending,34340,Withdrawal,2334,2024-10-03
+644,Jonathan Lopez,42,Male,Houston,Checking,99826,Repaid,2308,Deposit,4811,2024-07-01
+645,Jack Gonzalez,48,Female,Atlanta,Business,22058,Declined,11146,Deposit,3319,2024-04-04
+646,Jonathan Nelson,49,Male,Boston,Checking,40207,Declined,29211,Withdrawal,1979,2024-08-06
+647,Krystal Cummings,31,Female,New York,Checking,13915,Declined,48227,Withdrawal,1836,2024-09-27
+648,Michael Smith,26,Male,San Francisco,Savings,5042,Approved,6112,Withdrawal,3881,2024-11-04
+649,Gregory Moore,53,Male,Boston,Savings,83270,Pending,6385,Withdrawal,2638,2024-06-05
+650,Alan Roberts,19,Male,Boston,Business,81736,Declined,14791,Withdrawal,405,2024-09-01
+651,Joshua Blair,65,Male,Seattle,Fixed Deposit,78483,Declined,44821,Deposit,743,2024-05-28
+652,John Powell,40,Female,Miami,Fixed Deposit,47502,Declined,20301,Withdrawal,915,2024-03-15
+653,Robin Williams,52,Female,San Francisco,Checking,90338,Repaid,11634,Deposit,1345,2024-07-24
+654,Lauren Jones,49,Female,Boston,Checking,16711,Approved,26033,Deposit,2327,2024-05-27
+655,Catherine Taylor,55,Female,Dallas,Savings,26466,Approved,45281,Deposit,4837,2024-07-27
+656,Julian Curtis,39,Male,Seattle,Checking,10702,Approved,2653,Deposit,692,2024-05-09
+657,Antonio Wallace,69,Male,New York,Checking,72198,Approved,7887,Deposit,3732,2024-09-22
+658,Justin Harris,66,Male,Miami,Savings,9485,Pending,38041,Deposit,3214,2024-07-28
+659,Andrea Mccoy,36,Male,Boston,Checking,67032,Pending,5291,Deposit,4401,2025-02-26
+660,Sarah Beasley,33,Female,Miami,Savings,97661,Approved,41010,Deposit,3600,2024-11-06
+661,John Rush,46,Male,Chicago,Checking,80353,Approved,44453,Withdrawal,278,2024-09-26
+662,John Waller,59,Male,Miami,Savings,80977,Repaid,10130,Withdrawal,4862,2025-01-31
+663,Vincent Vazquez,62,Female,New York,Savings,99482,Approved,14424,Withdrawal,1746,2024-06-17
+664,Heather Jones,21,Male,Atlanta,Fixed Deposit,55266,Pending,23091,Withdrawal,3152,2024-03-04
+665,Cheyenne Simmons,19,Male,Chicago,Business,33150,Pending,5914,Deposit,4927,2024-03-20
+666,Brandon Jones,39,Female,Boston,Savings,33944,Repaid,1439,Deposit,1774,2025-01-23
+667,Pamela Simmons,67,Male,Dallas,Business,11004,Declined,24877,Withdrawal,4155,2024-07-04
+668,Charles Macias,32,Male,Miami,Business,21242,Pending,27298,Deposit,1983,2024-12-30
+669,Joseph Brown,47,Male,New York,Business,79369,Declined,3275,Withdrawal,1067,2024-08-21
+670,Donald Morgan,28,Female,Boston,Checking,28913,Pending,38114,Withdrawal,2604,2024-10-12
+671,Jennifer Bennett,40,Female,Seattle,Savings,79056,Pending,8174,Withdrawal,4313,2025-01-08
+672,Matthew Perez,19,Male,Miami,Savings,64657,Pending,42044,Deposit,3379,2024-06-11
+673,Lisa Lopez,61,Female,Los Angeles,Fixed Deposit,90023,Pending,2999,Withdrawal,2729,2025-02-01
+674,Amy Snyder,47,Female,San Francisco,Fixed Deposit,30953,Repaid,24700,Deposit,2955,2024-07-31
+675,Lauren Stanley,59,Female,New York,Savings,63667,Pending,47311,Withdrawal,2144,2024-08-11
+676,Thomas Hamilton,40,Female,Boston,Business,58662,Approved,41206,Deposit,2028,2024-06-15
+677,Richard Martinez,26,Male,Los Angeles,Business,71051,Declined,21269,Withdrawal,1909,2024-10-17
+678,Troy Reyes,20,Male,San Francisco,Checking,38774,Approved,31080,Withdrawal,2895,2024-07-29
+679,Jason Walker,32,Female,Miami,Business,48446,Declined,23781,Withdrawal,3599,2024-09-12
+680,Tammy Tapia,50,Female,Atlanta,Savings,87104,Declined,37475,Deposit,175,2024-05-01
+681,Brent Baker,20,Male,Miami,Checking,12932,Approved,26155,Deposit,2792,2025-01-14
+682,Robert Owens,51,Female,Houston,Fixed Deposit,47228,Declined,36049,Deposit,3291,2025-02-21
+683,Sarah White,63,Female,New York,Business,90417,Pending,34743,Deposit,1912,2024-03-03
+684,Cody Griffin,39,Male,Houston,Fixed Deposit,88043,Declined,35980,Withdrawal,4575,2024-03-19
+685,Brandon Fletcher,54,Female,Boston,Savings,87880,Repaid,11613,Deposit,3671,2024-03-24
+686,Russell Schneider DVM,64,Male,Atlanta,Checking,36743,Repaid,9858,Deposit,2735,2024-07-06
+687,Casey Weber,32,Female,Seattle,Business,45944,Pending,10822,Deposit,4186,2024-10-26
+688,Sarah Smith,42,Female,Los Angeles,Checking,89799,Approved,14818,Deposit,2841,2024-05-08
+689,Richard Perez,27,Female,New York,Checking,90690,Declined,27604,Withdrawal,1423,2024-04-21
+690,Eric Sanders,53,Female,Miami,Checking,16252,Declined,4384,Deposit,962,2025-02-03
+691,James Miranda,40,Female,Los Angeles,Savings,74341,Pending,28851,Withdrawal,3789,2024-05-03
+692,Matthew Webster,29,Male,Chicago,Business,49680,Pending,19002,Withdrawal,3515,2024-03-08
+693,Lisa Miller,35,Male,Atlanta,Savings,18770,Declined,3405,Withdrawal,4235,2024-11-27
+694,Luke Figueroa,19,Female,San Francisco,Business,29291,Approved,10858,Withdrawal,3141,2024-03-14
+695,Jerry Bowman,50,Male,Chicago,Checking,62696,Declined,35506,Withdrawal,2829,2024-12-10
+696,Sara Huynh,35,Male,Seattle,Business,6026,Pending,20855,Deposit,3770,2025-01-04
+697,Leslie Fisher,44,Female,Seattle,Checking,36305,Declined,40609,Deposit,2326,2024-08-13
+698,Amanda Jordan,54,Male,New York,Business,80206,Pending,4787,Withdrawal,4030,2024-06-07
+699,Kim White,52,Male,Los Angeles,Business,38455,Repaid,4905,Withdrawal,1850,2024-07-02
+700,Jared Mora,27,Male,Dallas,Fixed Deposit,84796,Repaid,2524,Deposit,4973,2025-01-10
+701,Joseph Davis,26,Female,Dallas,Business,81874,Approved,17822,Withdrawal,1923,2024-09-24
+702,Zachary Moore Jr.,55,Female,New York,Checking,95814,Pending,45855,Withdrawal,380,2024-12-18
+703,Allen Brown,62,Female,Dallas,Checking,45393,Declined,11651,Withdrawal,1658,2024-05-17
+704,Megan Kim,18,Female,Seattle,Savings,14579,Declined,4837,Deposit,1192,2024-08-15
+705,Charles Chavez,65,Female,Houston,Checking,29974,Pending,32032,Deposit,1407,2024-12-08
+706,James Rodriguez,20,Female,Houston,Fixed Deposit,82154,Pending,26587,Withdrawal,792,2025-01-05
+707,Kevin Price,62,Male,Seattle,Business,16883,Declined,38455,Deposit,1990,2025-01-10
+708,Javier Collier,29,Female,San Francisco,Savings,68271,Declined,3957,Withdrawal,321,2025-01-03
+709,William Hamilton,23,Male,Boston,Checking,52666,Repaid,23394,Deposit,2774,2025-02-14
+710,Tabitha Russell,65,Male,Seattle,Fixed Deposit,3260,Approved,11016,Withdrawal,4093,2024-12-05
+711,Kristin Nash,60,Female,Seattle,Savings,24625,Declined,48029,Deposit,3224,2024-10-24
+712,Kevin Nielsen,56,Female,Houston,Checking,99963,Repaid,3081,Deposit,3136,2025-02-15
+713,Caleb Foster,25,Male,New York,Business,2088,Declined,2369,Withdrawal,4180,2025-02-09
+714,Deborah Joseph,27,Female,Dallas,Savings,15595,Repaid,19088,Withdrawal,3529,2024-05-29
+715,Daniel Williamson,38,Female,Miami,Business,26246,Approved,18268,Deposit,361,2024-07-28
+716,Jaime Garcia,44,Female,New York,Checking,84957,Repaid,19970,Deposit,526,2024-12-18
+717,Mrs. Becky Whitney,58,Female,Boston,Business,85668,Approved,21192,Deposit,310,2024-09-10
+718,Cynthia Wilkerson,22,Female,Atlanta,Savings,44639,Declined,17323,Withdrawal,3773,2025-02-20
+719,Tanner Wright,67,Male,Miami,Fixed Deposit,78477,Approved,23666,Withdrawal,255,2024-12-22
+720,Jennifer Brown,53,Female,Houston,Fixed Deposit,64789,Pending,8622,Withdrawal,2618,2024-04-03
+721,Danielle Boyer,69,Male,Miami,Fixed Deposit,23762,Approved,32866,Deposit,4293,2024-05-06
+722,William Atkinson,32,Female,Houston,Business,62050,Approved,33989,Deposit,3553,2024-06-01
+723,Jodi Walker,62,Female,Miami,Checking,67931,Declined,24355,Withdrawal,2113,2024-06-28
+724,Brett Alvarado,20,Male,Dallas,Savings,59158,Repaid,16423,Withdrawal,1281,2024-10-07
+725,Debbie Vargas,53,Male,Dallas,Fixed Deposit,35078,Pending,6077,Deposit,1885,2024-03-10
+726,Philip Fischer,18,Male,New York,Checking,80036,Declined,25439,Deposit,2457,2024-03-26
+727,Jasmine Hall,51,Male,Dallas,Fixed Deposit,56243,Pending,10162,Withdrawal,437,2024-05-19
+728,Francisco Meza,60,Female,New York,Savings,47132,Approved,11787,Deposit,2200,2024-10-05
+729,Elizabeth Fox,49,Female,Houston,Business,40608,Approved,26367,Deposit,2717,2025-01-27
+730,Susan Rios,23,Male,San Francisco,Business,18272,Declined,11005,Withdrawal,2346,2024-12-31
+731,Jesse Hart,48,Male,Dallas,Checking,47715,Approved,7604,Withdrawal,3116,2024-10-25
+732,Chelsea Hess,48,Male,Chicago,Savings,13790,Repaid,13774,Withdrawal,3610,2024-04-24
+733,Angela Leonard,30,Female,Seattle,Savings,77275,Pending,22451,Deposit,2652,2025-02-14
+734,Alex Morrison,64,Male,San Francisco,Fixed Deposit,65651,Pending,49451,Withdrawal,3631,2024-07-09
+735,Marc Russell,34,Female,Atlanta,Business,65856,Pending,24624,Withdrawal,3143,2024-03-20
+736,Kayla Kelly,45,Male,Chicago,Savings,93691,Repaid,16172,Deposit,2408,2024-07-05
+737,David Murphy,45,Male,Los Angeles,Fixed Deposit,24029,Repaid,4770,Withdrawal,4072,2024-12-17
+738,Gerald Jones,26,Male,Dallas,Savings,9978,Pending,15313,Withdrawal,1593,2024-08-07
+739,Collin Hardy,29,Female,Los Angeles,Checking,83658,Repaid,7508,Withdrawal,4556,2024-12-21
+740,Lisa Knight,69,Male,New York,Savings,6630,Approved,26561,Deposit,1826,2024-04-01
+741,Lee Taylor,62,Female,Boston,Fixed Deposit,95524,Repaid,12368,Withdrawal,2119,2024-03-24
+742,Stephen Mcgee,70,Female,Dallas,Fixed Deposit,79997,Repaid,21143,Withdrawal,600,2024-06-21
+743,Alexander Watson,55,Male,Houston,Business,35743,Pending,21919,Deposit,3281,2024-11-26
+744,Meghan Moran,65,Male,Los Angeles,Fixed Deposit,90575,Pending,7560,Deposit,1315,2024-06-26
+745,Sherri Ashley,49,Male,Chicago,Savings,91209,Repaid,23393,Withdrawal,3537,2024-04-27
+746,Paul Jenkins,53,Male,Los Angeles,Business,33067,Repaid,6003,Deposit,719,2024-06-18
+747,Jose Montgomery,31,Female,San Francisco,Savings,78296,Repaid,11340,Deposit,3657,2025-02-23
+748,Nathan Clements,26,Male,San Francisco,Fixed Deposit,77790,Pending,7518,Withdrawal,4032,2024-07-09
+749,Michael Paul,35,Male,Dallas,Checking,49844,Declined,34675,Withdrawal,1367,2024-04-07
+750,James Kelly,33,Female,Boston,Business,92921,Approved,43505,Withdrawal,3459,2024-08-22
+751,Richard Jones,28,Female,Boston,Checking,508,Approved,29197,Withdrawal,1463,2024-09-25
+752,Donna Perry,53,Female,Dallas,Business,67845,Repaid,19602,Deposit,2391,2024-06-17
+753,Jamie Keith,57,Male,Boston,Fixed Deposit,80925,Repaid,3469,Deposit,3140,2024-12-08
+754,Jason Montes,65,Female,New York,Savings,54300,Pending,14583,Withdrawal,1603,2024-07-19
+755,Kevin Johnson,57,Female,New York,Savings,51351,Pending,33523,Deposit,684,2025-01-03
+756,Edward Duran,39,Female,Seattle,Savings,64212,Declined,6032,Deposit,606,2024-11-21
+757,Jennifer Brown,24,Female,San Francisco,Business,82855,Declined,20263,Withdrawal,599,2024-10-06
+758,Sabrina Foley,67,Female,San Francisco,Fixed Deposit,61988,Repaid,24916,Deposit,3603,2024-12-24
+759,Jennifer Lozano,33,Male,Dallas,Fixed Deposit,97038,Approved,35310,Deposit,3578,2024-08-20
+760,Joshua Singh,59,Female,Seattle,Business,44205,Pending,28987,Withdrawal,983,2024-08-04
+761,Shawn Peterson,19,Female,Seattle,Savings,68624,Approved,41823,Deposit,3603,2024-03-03
+762,Joe Dodson,62,Male,Los Angeles,Fixed Deposit,93923,Pending,18022,Withdrawal,1002,2024-04-24
+763,John Matthews,46,Female,Chicago,Savings,61057,Declined,45466,Deposit,4499,2024-06-04
+764,George Davis,38,Male,Los Angeles,Savings,17798,Repaid,5179,Withdrawal,3697,2024-10-23
+765,Samantha Cowan,68,Female,New York,Checking,68412,Approved,9952,Deposit,4297,2024-03-05
+766,Kristin Green,58,Female,New York,Fixed Deposit,52167,Pending,33045,Withdrawal,3262,2024-06-30
+767,Edgar Martinez,57,Female,Houston,Business,10413,Approved,26906,Withdrawal,4272,2024-12-26
+768,Jessica Palmer,54,Female,Miami,Fixed Deposit,27394,Pending,18624,Withdrawal,2455,2024-12-19
+769,Heather Fitzpatrick,34,Male,Houston,Fixed Deposit,5192,Approved,21637,Deposit,3469,2024-12-18
+770,Emily Floyd,36,Male,Miami,Business,22179,Approved,21832,Withdrawal,4130,2024-10-08
+771,Jennifer Martinez,29,Male,Boston,Fixed Deposit,38006,Repaid,28088,Deposit,4334,2024-12-28
+772,Tyler Evans,33,Male,Chicago,Business,32640,Approved,41599,Deposit,2409,2024-05-06
+773,Matthew Williams,49,Male,Houston,Business,71401,Declined,33064,Deposit,2512,2024-06-04
+774,Lauren Lee,66,Male,Los Angeles,Fixed Deposit,82107,Approved,5155,Withdrawal,1062,2025-02-25
+775,David Alvarado,35,Male,Miami,Savings,10436,Repaid,16004,Withdrawal,1875,2024-07-10
+776,Joseph Dunn,50,Male,Boston,Savings,53848,Approved,25393,Withdrawal,4328,2025-01-15
+777,Ashley Carter,69,Female,Miami,Savings,55187,Pending,49276,Withdrawal,1205,2024-09-25
+778,Alexander Morgan,45,Male,Miami,Savings,27816,Declined,38606,Deposit,715,2025-02-13
+779,Michael Buck,26,Male,Dallas,Business,51779,Pending,10678,Deposit,3616,2024-03-23
+780,Elizabeth Butler,29,Female,Boston,Checking,39604,Declined,19571,Deposit,3700,2024-03-30
+781,Robert Patterson,51,Female,Seattle,Savings,69717,Pending,19150,Deposit,3151,2024-10-26
+782,Michelle Sims,69,Female,Houston,Checking,40193,Approved,49616,Deposit,1121,2024-11-05
+783,Jennifer Smith,57,Female,New York,Checking,70629,Repaid,3668,Deposit,2010,2025-02-16
+784,Christopher Powell,68,Male,Boston,Business,52785,Repaid,21012,Withdrawal,3487,2024-07-02
+785,Melissa Krueger,68,Female,Seattle,Fixed Deposit,72498,Pending,21113,Deposit,3663,2024-06-18
+786,Danielle Williams,52,Female,Boston,Savings,7972,Repaid,1256,Withdrawal,926,2024-12-20
+787,Lacey Harris MD,26,Female,Houston,Fixed Deposit,28144,Declined,42611,Withdrawal,2827,2024-06-19
+788,Kathryn Dickerson,56,Male,Los Angeles,Fixed Deposit,82107,Repaid,16019,Withdrawal,4015,2024-12-26
+789,Jeffrey Scott,39,Female,Miami,Business,79655,Repaid,21718,Deposit,2247,2025-02-19
+790,Mark Chang,31,Male,New York,Fixed Deposit,26781,Pending,7299,Deposit,2623,2024-06-07
+791,John Brown,54,Male,Miami,Checking,50309,Pending,28178,Withdrawal,1142,2024-11-20
+792,Ryan Stout,30,Male,Seattle,Business,35800,Approved,30352,Withdrawal,4752,2025-02-27
+793,Kara Camacho,62,Female,New York,Savings,34564,Pending,37844,Withdrawal,2421,2024-03-16
+794,Aaron Ward,69,Female,Atlanta,Savings,26379,Pending,11035,Deposit,4549,2024-06-13
+795,Ashley Contreras,32,Female,Los Angeles,Fixed Deposit,98170,Approved,35906,Withdrawal,4791,2024-03-26
+796,Frances Baker,32,Female,Dallas,Fixed Deposit,94719,Repaid,5890,Deposit,4267,2024-11-09
+797,Sean Ball,34,Male,Seattle,Savings,80645,Repaid,8535,Deposit,1229,2024-06-16
+798,Donna Marquez,46,Female,Boston,Business,18927,Pending,28971,Deposit,571,2024-10-19
+799,Erin Rice,37,Male,Dallas,Savings,3971,Pending,32435,Withdrawal,3519,2024-08-06
+800,Charles Taylor,30,Female,San Francisco,Fixed Deposit,51267,Pending,31861,Withdrawal,3818,2024-11-29
